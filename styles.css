@@ -8,7 +8,7 @@ body {
 }
 
 #header {
-  background-color: #1abc9c;
+  background-color: #f6a623;
   height: 150px;
   line-height: 150px;
 }
@@ -86,7 +86,7 @@ body {
 }
 
 .post-container:nth-child(even) {
-  background-color: #f2f2f2;
+  background-color: #bebebe;
 }
 
 h1,
@@ -116,12 +116,12 @@ p {
 }
 
 a {
-  color: #1abc9c;
+  color: #f6a623;
   text-decoration: none;
 }
 
 a:hover {
-  color: #f6a623;
+  color: #ffdba1;
 }
 
 .column {
