@@ -1,10 +1,10 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css2?family=Raleway&display=swap);
 
 body {
   color: #555;
   margin: 0;
 
-  font-family: "Montserrat", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #header {
@@ -14,6 +14,8 @@ body {
 }
 
 #header a {
+  margin-left: 50px;
+  margin-right: 25px;
   color: white;
   text-decoration: none;
 
@@ -29,7 +31,7 @@ body {
   display: block;
   float: left;
 
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -40,8 +42,9 @@ body {
 }
 
 #header-nav li {
+  font-weight: bold;
   display: inline;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .container {
@@ -106,12 +109,14 @@ p {
 }
 
 #footer h4 {
+  margin-left: 20px;
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
 #footer p {
+  margin-left: 25px;
   color: white;
 }
 
@@ -125,6 +130,7 @@ a:hover {
 }
 
 .column {
+  margin-left: 125px;
   min-width: 300px;
   display: inline-block;
   vertical-align: top;
