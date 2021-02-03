@@ -75,7 +75,10 @@ body {
 }
 
 .post-author span {
+  background-image: linear-gradient(white, rgb(195, 209, 214));
+  font-weight: bold;
   margin-left: 16px;
+  padding: 2px;
 }
 
 .post-date {
