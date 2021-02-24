@@ -1,14 +1,16 @@
 @import url(https://fonts.googleapis.com/css2?family=Raleway&display=swap);
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Padauk&display=swap");
 
 body {
   color: #555;
   margin: 0;
-
-  font-family: "Raleway", sans-serif;
+  font-family: "Padauk", sans-serif;
 }
 
 #header {
-  background-color: #f6a623;
+  background-color: #1b1b1b;
   height: 150px;
   line-height: 150px;
 }
@@ -21,18 +23,21 @@ body {
 
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
 }
 
 #header a:hover {
-  color: #222;
+  color: rgb(73, 62, 175);
 }
 
 #header-title {
   display: block;
   float: left;
+  font-family: "Dosis", sans-serif;
 
-  font-size: 30px;
-  font-weight: bold;
+  font-size: 38px;
+  font-weight: 700;
 }
 
 #header-nav {
@@ -44,11 +49,16 @@ body {
 #header-nav li {
   font-weight: bold;
   display: inline;
-  padding-left: 10px;
+  padding-left: 1px;
+  margin-right: 20px;
+}
+
+#content {
+  background: linear-gradient(#1b1b1b, rgb(44, 86, 100), #1b1b1b);
 }
 
 .container {
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -56,7 +66,7 @@ body {
 .about {
   max-width: 800px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 35px;
 }
 
 .about {
@@ -67,6 +77,7 @@ body {
   width: 50px;
   height: 50px;
   vertical-align: middle;
+  border: aliceblue 3px solid;
 }
 
 .post-author img,
@@ -74,15 +85,24 @@ body {
   border-radius: 50px;
 }
 
+.post-author {
+  background-color: #1b1b1b;
+  padding: 8px 10px 8px 10px;
+  width: max-content;
+  border-radius: 50px;
+}
+
 .post-author span {
-  background-image: linear-gradient(white, rgb(195, 209, 214));
-  font-weight: bold;
   margin-left: 16px;
   padding: 2px;
+  color: white;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 .post-date {
-  color: #9b9b9b;
+  color: #afafaf;
 
   font-size: 14px;
   font-weight: bold;
@@ -91,36 +111,39 @@ body {
   letter-spacing: 0.1em;
 }
 
-.post-container:nth-child(even) {
-  background-color: #bebebe;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  color: #333;
+.post-title {
+  color: aliceblue;
+  font-family: "Dosis", sans-serif;
+  font-size: x-large;
 }
 
 p {
   line-height: 1.5;
+  color: aliceblue;
+  font-size: 19px;
 }
 
 #footer {
-  background-color: #2f2f2f;
-  padding: 50px 0;
+  background-color: #1b1b1b;
+  padding: 30px 0;
 }
 
 #footer h4 {
   margin-left: 20px;
-  color: white;
+  color: aliceBlue;
   text-transform: uppercase;
   letter-spacing: 0.1em;
+  font-family: "Dosis", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
 }
 
 #footer p {
   margin-left: 25px;
   color: white;
+  font-family: "Dosis", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 a {
