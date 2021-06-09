@@ -13,6 +13,12 @@
   font-weight: 300;
 }
 
+#timer {
+  margin: auto;
+  width: 12%;
+  height: 22%;
+}
+
 #author {
   color: rgb(37, 37, 37);
   font-family: "Flamenco", cursive;
