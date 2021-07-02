@@ -10,16 +10,20 @@ body {
 }
 
 #header {
-  background-color: #1b1b1b;
-  height: 150px;
+  background-color: #ece0e0;
+  height: 250px;
   line-height: 150px;
+  border: rgb(46, 78, 20) solid 5px;
+}
+
+#my-logo {
+  border: slategray solid 5px;
 }
 
 #header a {
-  margin-left: 50px;
-  margin-right: 25px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
+  border: rgb(36, 109, 182) solid 5px;
 
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -34,10 +38,8 @@ body {
 #header-title {
   display: block;
   float: left;
-  font-family: "Dosis", sans-serif;
 
-  font-size: 38px;
-  font-weight: 700;
+  font-size: 40px;
 }
 
 #header-nav {
@@ -49,18 +51,18 @@ body {
 #header-nav li {
   font-weight: bold;
   display: inline;
-  padding-left: 1px;
-  margin-right: 20px;
+  margin: 0 20px 0 20px;
+  border: rgb(216, 16, 1) solid 5px;
 }
 
 #content {
-  background: linear-gradient(#1b1b1b, rgb(44, 86, 100), #1b1b1b);
+  background: linear-gradient(#ece0e0, rgb(255, 241, 221), #ece0e0);
 }
 
-.container {
+/* .container {
   max-width: 1200px;
   margin: 0 auto;
-}
+} */
 
 .post,
 .about {
@@ -69,8 +71,17 @@ body {
   padding: 35px;
 }
 
+.lil-name {
+  margin: 1em;
+}
+
 .about {
   text-align: center;
+}
+
+.link-icon {
+  height: 15px;
+  color: rgb(63, 53, 151);
 }
 
 .post-author img {
@@ -102,7 +113,7 @@ body {
 }
 
 .post-date {
-  color: #afafaf;
+  color: #464646;
 
   font-size: 14px;
   font-weight: bold;
@@ -112,25 +123,25 @@ body {
 }
 
 .post-title {
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   font-family: "Dosis", sans-serif;
   font-size: x-large;
 }
 
 p {
   line-height: 1.5;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   font-size: 19px;
 }
 
 #footer {
-  background-color: #1b1b1b;
+  background-color: #ece0e0;
   padding: 30px 0;
 }
 
 #footer h4 {
   margin-left: 20px;
-  color: aliceBlue;
+  color: rgb(0, 0, 0);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-family: "Dosis", sans-serif;
@@ -140,19 +151,20 @@ p {
 
 #footer p {
   margin-left: 25px;
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: "Dosis", sans-serif;
   font-weight: 500;
   font-size: 18px;
 }
 
 a {
-  color: #f6a623;
+  color: rgb(63, 53, 151);
   text-decoration: none;
 }
 
 a:hover {
-  color: #ffdba1;
+  color: #bd7400;
+  font-weight: 800;
 }
 
 .column {
