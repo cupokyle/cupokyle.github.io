@@ -59,10 +59,12 @@ body {
   background: linear-gradient(#ece0e0, rgb(255, 241, 221), #ece0e0);
 }
 
-/* .container {
-  max-width: 1200px;
+.container {
+  max-width: auto;
   margin: 0 auto;
-} */
+  border: rgb(73, 62, 175) dotted 4px;
+  text-align: left;
+}
 
 .post,
 .about {
