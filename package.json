@@ -1,0 +1,32 @@
+{
+  "name": "cupokyle.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "prebuild": "npx rimraf build",
+    "build": "parcel build --public-url ./ ./src/index.html --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cupokyle/cupokyle.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cupokyle/cupokyle.github.io/issues"
+  },
+  "homepage": "https://github.com/cupokyle/cupokyle.github.io#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.0.2"
+  },
+  "devDependencies": {
+    "cssnano": "^5.0.6",
+    "parcel-bundler": "^1.12.5",
+    "postcss": "^8.3.5",
+    "sass": "^1.35.1"
+  }
+}

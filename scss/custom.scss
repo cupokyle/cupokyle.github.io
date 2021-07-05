@@ -1,0 +1,40 @@
+$body-bg: rgb(56, 54, 54);
+$body-color: aliceblue;
+$primary: rgb(56, 54, 54);
+
+$font-family-sans-serif: "ABeeZee";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+
+.custombg {
+  background: rgb(31, 0, 28);
+  background-size: cover;
+  color: aliceblue;
+}
+
+.git-banner {
+  color: aliceblue;
+}
+
+.card {
+  border: none;
+}
+
+.card-body {
+  background-color: rgb(27, 27, 27);
+}
+
+.card-body p {
+  color: aliceblue;
+}
