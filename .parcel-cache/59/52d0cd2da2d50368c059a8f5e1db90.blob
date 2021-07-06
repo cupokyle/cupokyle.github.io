@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="72005a056154f1a22d9faae03468df4b">
+    <link rel="preconnect" href="f0284d369ac22f4308a77ec0c9977aa7">
+    <link rel="preconnect" href="d7c2b8c89e8843c0697300fa104dd24b" crossorigin="">
+    <link href="af570eba2bf53ec12e6308423f6512c4" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light mt-5 p-3 rounded-3">
+        <div class="container-fluid">
+          <img class="float-start ps-2 pe-4" src="951e401cbc507cdbe51694a43b11d311" alt="Kyle Smile Guy Logo" height="80px">
+          <a class="navbar-brand text-primary fs-4 fw-bold" href="7ad4d3a5eb3bbf64f4217531673169ea">
+            Kyle Forsyth<br>Web Services</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav fs-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="7ad4d3a5eb3bbf64f4217531673169ea">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Projects</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  My Little Buddies
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Patrick</a></li>
+                  <li><a class="dropdown-item" href="#">Paul</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Cook</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container-fluid custombg mt-5 pt-4 pb-2">
+      <a href="a864e1ea4b788a6c830095741a90371c" class="text-decoration-none git-banner">
+        <div class="container">
+          <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-github float-end mt-2 me-5" viewbox="0 0 16 16">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+          </svg>
+          <h2 class="git-banner-text ms-3 fw-bold mb-0">Follow me on GitHub</h2>
+          <p class="git-banner-text ms-3 mt-0 text-white-50">
+            I have several unique projects in the works
+          </p>
+        </div>
+      </a>
+    </div>
+
+    <div class="container pt-4">
+      <div class="row mt-5">
+        <div class="col-sm">
+          <div class="card">
+            <img src="d337068077f826359018bd61c534b613" class="card-img-top" alt="scientist doing something">
+            <div class="card-body p-4 rounded-bottom">
+              <h5 class="card-title fw-bold">Vaccine-Tracker</h5>
+              <p class="card-text">
+                We track how many vaccines have been distributed around the
+                world and how many are going to waste.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <img src="287eb095771d7dc247b0242a5cc9ace4" class="card-img-top" alt="scientist doing something">
+            <div class="card-body p-4 rounded-bottom">
+              <h5 class="card-title fw-bold">Snake.com</h5>
+              <p class="card-text">
+                This website cannot be used by humans. It wouldn't make any
+                sense to them. This website is for snakes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <img src="e4d97ef3596cdc9a0b24b5067f070ce1" class="card-img-top" alt="scientist doing something">
+            <div class="card-body p-4 rounded-bottom">
+              <h5 class="card-title fw-bold">Our First Argument</h5>
+              <p class="card-text">
+                A dating app for people who understand the importance of
+                bottling up their anger so that they can have a long, unhealthy
+                relationship and then divorce when their kids are teenagers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-12 col-md-6 col-lg-4">
+          <h3 class="mb-2">Join our mailing list:</h3>
+        </div>
+        <div class="col-sm">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="col-12 col-md-2">
+          <button type="submit" class="btn btn-primary rounded" style="b07ac1f8744b7736ffdba4a4a63893cc">
+            Submit
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="9f3f0397a3729cfef951edc494372e0c"></script>
+  </body>
+</html>

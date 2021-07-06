@@ -38,3 +38,9 @@ $font-family-sans-serif: "ABeeZee";
 .card-body p {
   color: aliceblue;
 }
+
+.card-img,
+.card-img-top {
+  object-fit: cover;
+  aspect-ratio: 1/0.7;
+}

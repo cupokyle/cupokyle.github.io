@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "parcel ./src/index.html",
     "prebuild": "npx rimraf build",
-    "build": "parcel build --public-url ./ ./src/index.html --out-dir build"
+    "build": "parcel build --public-url ./ ./src/index.html --out-dir build --no-minify"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
     "bootstrap": "^5.0.2"
   },
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
     "cssnano": "^5.0.6",
     "parcel-bundler": "^1.12.5",
     "postcss": "^8.3.5",
