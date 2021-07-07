@@ -27,8 +27,11 @@ $font-family-sans-serif: "ABeeZee";
   color: aliceblue;
 }
 
-.card {
+.card,
+a {
   border: none;
+  text-decoration: none;
+  color: aliceblue;
 }
 
 .card-body {
