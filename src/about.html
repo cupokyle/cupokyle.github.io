@@ -12,10 +12,16 @@
     />
     <title>About Me</title>
   </head>
-  <body>
+  <body class="bg-primary">
     <div class="container">
       <nav
-        class="navbar navbar-expand-lg navbar-light bg-light mt-5 p-3 rounded-3"
+        class="
+          navbar navbar-expand-lg navbar-light
+          bg-light bg-secondary
+          mt-5
+          p-3
+          rounded-3
+        "
       >
         <div class="container-fluid">
           <img
@@ -24,7 +30,7 @@
             alt="Kyle Smile Guy Logo"
             height="80px"
           />
-          <a class="navbar-brand text-primary fs-4 fw-bold" href="/index.html">
+          <a class="navbar-brand fs-4 fw-bold" href="/index.html">
             Kyle Forsyth<br />Web Services</a
           >
           <button
@@ -41,15 +47,15 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav fs-5">
               <li class="nav-item">
-                <a class="nav-link" href="/index.html">Home</a>
-              </li>
-              <li class="nav-item">
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="/about.html"
-                  >About Me</a
+                  href="/index.html"
+                  >Home</a
                 >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about.html">About Me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="/projects.html">Projects</a>
@@ -63,16 +69,35 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Extras
+                  My Links
                 </a>
                 <ul
-                  class="dropdown-menu"
+                  class="dropdown-menu bg-secondary"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <li><a class="dropdown-item" href="#">Extra 1</a></li>
-                  <li><a class="dropdown-item" href="#">Extra 2</a></li>
                   <li>
-                    <a class="dropdown-item" href="#">Extra 3</a>
+                    <a
+                      class="dropdown-item text-text-color"
+                      href="https://github.com/cupokyle"
+                      target="_blank"
+                      >GitHub</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-text-color"
+                      href="https://www.linkedin.com/in/kyleforsyth/"
+                      target="_blank"
+                      >LinkedIn</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-text-color"
+                      href="https://angel.co/u/kyle-forsyth-1"
+                      target="_blank"
+                      >AngelList</a
+                    >
                   </li>
                 </ul>
               </li>

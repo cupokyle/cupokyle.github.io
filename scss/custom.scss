@@ -1,6 +1,5 @@
-$body-bg: rgb(56, 54, 54);
-$body-color: aliceblue;
-$primary: rgb(56, 54, 54);
+$secondary: #f0ebd8;
+$primary: #0d1321;
 
 $font-family-sans-serif: "ABeeZee";
 
@@ -18,28 +17,23 @@ $font-family-sans-serif: "ABeeZee";
 }
 
 .custombg {
-  background: rgb(31, 0, 28);
+  background: #3e5c76;
   background-size: cover;
-  color: aliceblue;
-}
-
-.git-banner {
-  color: aliceblue;
 }
 
 .card,
 a {
   border: none;
   text-decoration: none;
-  color: aliceblue;
+  color: #f0ebd8;
 }
 
 .card-body {
-  background-color: rgb(27, 27, 27);
+  background-color: #1d2d44;
 }
 
 .card-body p {
-  color: aliceblue;
+  color: #f0ebd8;
 }
 
 .card-img,
@@ -50,5 +44,5 @@ a {
 
 footer {
   height: 125px;
-  background-color: rgb(31, 0, 28);
+  background-color: #3e5c76;
 }

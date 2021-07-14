@@ -3,18 +3,24 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="custom.6eb2f25a.css">
+    <link rel="stylesheet" href="custom.d6fc45ae.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
     <title>About Me</title>
   </head>
-  <body>
+  <body class="bg-primary">
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light mt-5 p-3 rounded-3">
+      <nav class="
+          navbar navbar-expand-lg navbar-light
+          bg-light bg-secondary
+          mt-5
+          p-3
+          rounded-3
+        ">
         <div class="container-fluid">
           <img class="float-start ps-2 pe-4" src="logo.2148a747.png" alt="Kyle Smile Guy Logo" height="80px">
-          <a class="navbar-brand text-primary fs-4 fw-bold" href="index.html">
+          <a class="navbar-brand fs-4 fw-bold" href="index.html">
             Kyle Forsyth<br>Web Services</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -22,23 +28,27 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav fs-5">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="about.html">About Me</a>
+                <a class="nav-link" href="about.html">About Me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="projects.html">Projects</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Extras
+                  My Links
                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <li><a class="dropdown-item" href="#">Extra 1</a></li>
-                  <li><a class="dropdown-item" href="#">Extra 2</a></li>
+                <ul class="dropdown-menu bg-secondary" aria-labelledby="navbarDropdownMenuLink">
                   <li>
-                    <a class="dropdown-item" href="#">Extra 3</a>
+                    <a class="dropdown-item text-text-color" href="https://github.com/cupokyle" target="_blank">GitHub</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-text-color" href="https://www.linkedin.com/in/kyleforsyth/" target="_blank">LinkedIn</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-text-color" href="https://angel.co/u/kyle-forsyth-1" target="_blank">AngelList</a>
                   </li>
                 </ul>
               </li>
