@@ -10756,6 +10756,10 @@ textarea.form-control-lg {
     padding-left: 1rem;
   }
 }
+.banner-text {
+  color: #f0ebd8;
+}
+
 .custombg {
   background: #3e5c76;
   background-size: cover;
