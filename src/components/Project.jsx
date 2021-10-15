@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 
 export default function Project({
-  project: { id, title, state },
+  project: { id, title, projectUrl, projectImgUrl, state },
   onArchiveProject,
   onPinProject,
 }) {
@@ -28,6 +28,9 @@ export default function Project({
           placeholder="Input title"
         />
       </div>
+      <a className="project-image" href={projectUrl}>
+        <img src={projectImgUrl} alt="project thumbnail" />
+      </a>
 
       <div className="actions" onClick={(event) => event.stopPropagation()}>
         {state !== "PROJECT_ARCHIVED" && (
@@ -48,6 +51,10 @@ Project.propTypes = {
     id: PropTypes.string.isRequired,
     /** Title of the project */
     title: PropTypes.string.isRequired,
+    /** URL for the project */
+    projectUrl: PropTypes.string.isRequired,
+    /** Image for the project */
+    projectImgUrl: PropTypes.string.isRequired,
     /** Current state of the project */
     state: PropTypes.string.isRequired,
   }),
