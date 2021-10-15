@@ -51,7 +51,7 @@ export default function ProjectList({
 
   return (
     <div className="list-items">
-      {projects.map((project) => (
+      {projectsInOrder.map((project) => (
         <Project key={project.id} project={project} {...events} />
       ))}
     </div>

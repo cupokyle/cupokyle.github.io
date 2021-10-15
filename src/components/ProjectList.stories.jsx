@@ -30,7 +30,7 @@ WithPinnedProjects.args = {
   // Shaping the stories through args composition.
   // Inherited data coming from the Default story.
   projects: [
-    ...Default.args.projects.slice(5, 0),
+    ...Default.args.projects.slice(0, 5),
     { id: "6", title: "Project 6 (pinned)", state: "PROJECT_PINNED" },
   ],
 };
