@@ -1,10 +1,14 @@
 .listItem {
   display: flex;
   flex-direction: column;
-  border: 2px solid red;
   border-radius: 25px;
-  background-color: lightgreen;
+  background-color: lightgray;
   width: 25%;
+  margin-top: 10px;
+}
+
+.listItem:hover {
+  border: 2px solid gray;
 }
 
 .title {
@@ -27,13 +31,19 @@
   text-align: center;
   width: 20%;
 }
+.title .checkbox:hover {
+  cursor: pointer;
+}
 .title .actions {
   text-align: center;
   width: 20%;
 }
+.projectImage {
+  text-align: center;
+}
 
 .projectImage img {
-  border: 5px dotted blue;
-  filter: opacity(50%);
-  width: 100%;
+  width: 90%;
+  border-radius: 25px;
+  padding-bottom: 10px;
 }
