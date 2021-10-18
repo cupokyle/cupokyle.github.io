@@ -2,22 +2,24 @@
 
 exports[`Storyshots Project Archived 1`] = `
 <div
-  className="list-item PROJECT_ARCHIVED"
+  className="listItem PROJECT_ARCHIVED"
 >
-  <label
-    className="checkbox"
-  >
-    <input
-      defaultChecked={true}
-      disabled={true}
-      name="checked"
-      type="checkbox"
-    />
-    <span
-      className="checkbox-custom"
-      onClick={[Function]}
-    />
-  </label>
+  <div>
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={true}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+  </div>
   <div
     className="title"
   >
@@ -29,6 +31,18 @@ exports[`Storyshots Project Archived 1`] = `
     />
   </div>
   <div
+    className="projectImage"
+  >
+    <a
+      href="https://www.lego.com"
+    >
+      <img
+        alt="project thumbnail"
+        src="https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1059-1490303712-5_dblbig.jpg"
+      />
+    </a>
+  </div>
+  <div
     className="actions"
     onClick={[Function]}
   />
@@ -37,22 +51,24 @@ exports[`Storyshots Project Archived 1`] = `
 
 exports[`Storyshots Project Default 1`] = `
 <div
-  className="list-item PROJECT_INBOX"
+  className="listItem PROJECT_INBOX"
 >
-  <label
-    className="checkbox"
-  >
-    <input
-      defaultChecked={false}
-      disabled={true}
-      name="checked"
-      type="checkbox"
-    />
-    <span
-      className="checkbox-custom"
-      onClick={[Function]}
-    />
-  </label>
+  <div>
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+  </div>
   <div
     className="title"
   >
@@ -62,6 +78,18 @@ exports[`Storyshots Project Default 1`] = `
       type="text"
       value="Test Project"
     />
+  </div>
+  <div
+    className="projectImage"
+  >
+    <a
+      href="https://www.lego.com"
+    >
+      <img
+        alt="project thumbnail"
+        src="https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1059-1490303712-5_dblbig.jpg"
+      />
+    </a>
   </div>
   <div
     className="actions"
@@ -80,22 +108,24 @@ exports[`Storyshots Project Default 1`] = `
 
 exports[`Storyshots Project Pinned 1`] = `
 <div
-  className="list-item PROJECT_PINNED"
+  className="listItem PROJECT_PINNED"
 >
-  <label
-    className="checkbox"
-  >
-    <input
-      defaultChecked={false}
-      disabled={true}
-      name="checked"
-      type="checkbox"
-    />
-    <span
-      className="checkbox-custom"
-      onClick={[Function]}
-    />
-  </label>
+  <div>
+    <label
+      className="checkbox"
+    >
+      <input
+        defaultChecked={false}
+        disabled={true}
+        name="checked"
+        type="checkbox"
+      />
+      <span
+        className="checkbox-custom"
+        onClick={[Function]}
+      />
+    </label>
+  </div>
   <div
     className="title"
   >
@@ -105,6 +135,18 @@ exports[`Storyshots Project Pinned 1`] = `
       type="text"
       value="Test Project"
     />
+  </div>
+  <div
+    className="projectImage"
+  >
+    <a
+      href="https://www.lego.com"
+    >
+      <img
+        alt="project thumbnail"
+        src="https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1059-1490303712-5_dblbig.jpg"
+      />
+    </a>
   </div>
   <div
     className="actions"
@@ -133,22 +175,24 @@ exports[`Storyshots ProjectList Default 1`] = `
     className="list-items"
   >
     <div
-      className="list-item PROJECT_INBOX"
+      className="listItem PROJECT_INBOX"
     >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+      <div>
+        <label
+          className="checkbox"
+        >
+          <input
+            defaultChecked={false}
+            disabled={true}
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            className="checkbox-custom"
+            onClick={[Function]}
+          />
+        </label>
+      </div>
       <div
         className="title"
       >
@@ -160,6 +204,18 @@ exports[`Storyshots ProjectList Default 1`] = `
         />
       </div>
       <div
+        className="projectImage"
+      >
+        <a
+          href="https://www.lego.com"
+        >
+          <img
+            alt="project thumbnail"
+            src="https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1059-1490303712-5_dblbig.jpg"
+          />
+        </a>
+      </div>
+      <div
         className="actions"
         onClick={[Function]}
       >
@@ -173,22 +229,24 @@ exports[`Storyshots ProjectList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item PROJECT_INBOX"
+      className="listItem PROJECT_INBOX"
     >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+      <div>
+        <label
+          className="checkbox"
+        >
+          <input
+            defaultChecked={false}
+            disabled={true}
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            className="checkbox-custom"
+            onClick={[Function]}
+          />
+        </label>
+      </div>
       <div
         className="title"
       >
@@ -200,6 +258,18 @@ exports[`Storyshots ProjectList Default 1`] = `
         />
       </div>
       <div
+        className="projectImage"
+      >
+        <a
+          href="https://www.lego.com"
+        >
+          <img
+            alt="project thumbnail"
+            src="https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1059-1490303712-5_dblbig.jpg"
+          />
+        </a>
+      </div>
+      <div
         className="actions"
         onClick={[Function]}
       >
@@ -213,22 +283,24 @@ exports[`Storyshots ProjectList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item PROJECT_INBOX"
+      className="listItem PROJECT_INBOX"
     >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+      <div>
+        <label
+          className="checkbox"
+        >
+          <input
+            defaultChecked={false}
+            disabled={true}
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            className="checkbox-custom"
+            onClick={[Function]}
+          />
+        </label>
+      </div>
       <div
         className="title"
       >
@@ -240,6 +312,18 @@ exports[`Storyshots ProjectList Default 1`] = `
         />
       </div>
       <div
+        className="projectImage"
+      >
+        <a
+          href="https://www.lego.com"
+        >
+          <img
+            alt="project thumbnail"
+            src="https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1059-1490303712-5_dblbig.jpg"
+          />
+        </a>
+      </div>
+      <div
         className="actions"
         onClick={[Function]}
       >
@@ -253,22 +337,24 @@ exports[`Storyshots ProjectList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item PROJECT_INBOX"
+      className="listItem PROJECT_INBOX"
     >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+      <div>
+        <label
+          className="checkbox"
+        >
+          <input
+            defaultChecked={false}
+            disabled={true}
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            className="checkbox-custom"
+            onClick={[Function]}
+          />
+        </label>
+      </div>
       <div
         className="title"
       >
@@ -280,6 +366,18 @@ exports[`Storyshots ProjectList Default 1`] = `
         />
       </div>
       <div
+        className="projectImage"
+      >
+        <a
+          href="https://www.lego.com"
+        >
+          <img
+            alt="project thumbnail"
+            src="https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1059-1490303712-5_dblbig.jpg"
+          />
+        </a>
+      </div>
+      <div
         className="actions"
         onClick={[Function]}
       >
@@ -293,22 +391,24 @@ exports[`Storyshots ProjectList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item PROJECT_INBOX"
+      className="listItem PROJECT_INBOX"
     >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+      <div>
+        <label
+          className="checkbox"
+        >
+          <input
+            defaultChecked={false}
+            disabled={true}
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            className="checkbox-custom"
+            onClick={[Function]}
+          />
+        </label>
+      </div>
       <div
         className="title"
       >
@@ -320,6 +420,18 @@ exports[`Storyshots ProjectList Default 1`] = `
         />
       </div>
       <div
+        className="projectImage"
+      >
+        <a
+          href="https://www.lego.com"
+        >
+          <img
+            alt="project thumbnail"
+            src="https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1059-1490303712-5_dblbig.jpg"
+          />
+        </a>
+      </div>
+      <div
         className="actions"
         onClick={[Function]}
       >
@@ -333,22 +445,24 @@ exports[`Storyshots ProjectList Default 1`] = `
       </div>
     </div>
     <div
-      className="list-item PROJECT_INBOX"
+      className="listItem PROJECT_INBOX"
     >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+      <div>
+        <label
+          className="checkbox"
+        >
+          <input
+            defaultChecked={false}
+            disabled={true}
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            className="checkbox-custom"
+            onClick={[Function]}
+          />
+        </label>
+      </div>
       <div
         className="title"
       >
@@ -358,6 +472,18 @@ exports[`Storyshots ProjectList Default 1`] = `
           type="text"
           value="Project 6"
         />
+      </div>
+      <div
+        className="projectImage"
+      >
+        <a
+          href="https://www.lego.com"
+        >
+          <img
+            alt="project thumbnail"
+            src="https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1059-1490303712-5_dblbig.jpg"
+          />
+        </a>
       </div>
       <div
         className="actions"
@@ -567,22 +693,24 @@ exports[`Storyshots ProjectList With Pinned Projects 1`] = `
     className="list-items"
   >
     <div
-      className="list-item PROJECT_PINNED"
+      className="listItem PROJECT_PINNED"
     >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+      <div>
+        <label
+          className="checkbox"
+        >
+          <input
+            defaultChecked={false}
+            disabled={true}
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            className="checkbox-custom"
+            onClick={[Function]}
+          />
+        </label>
+      </div>
       <div
         className="title"
       >
@@ -594,6 +722,15 @@ exports[`Storyshots ProjectList With Pinned Projects 1`] = `
         />
       </div>
       <div
+        className="projectImage"
+      >
+        <a>
+          <img
+            alt="project thumbnail"
+          />
+        </a>
+      </div>
+      <div
         className="actions"
         onClick={[Function]}
       >
@@ -607,22 +744,24 @@ exports[`Storyshots ProjectList With Pinned Projects 1`] = `
       </div>
     </div>
     <div
-      className="list-item PROJECT_INBOX"
+      className="listItem PROJECT_INBOX"
     >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+      <div>
+        <label
+          className="checkbox"
+        >
+          <input
+            defaultChecked={false}
+            disabled={true}
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            className="checkbox-custom"
+            onClick={[Function]}
+          />
+        </label>
+      </div>
       <div
         className="title"
       >
@@ -634,6 +773,18 @@ exports[`Storyshots ProjectList With Pinned Projects 1`] = `
         />
       </div>
       <div
+        className="projectImage"
+      >
+        <a
+          href="https://www.lego.com"
+        >
+          <img
+            alt="project thumbnail"
+            src="https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1059-1490303712-5_dblbig.jpg"
+          />
+        </a>
+      </div>
+      <div
         className="actions"
         onClick={[Function]}
       >
@@ -647,22 +798,24 @@ exports[`Storyshots ProjectList With Pinned Projects 1`] = `
       </div>
     </div>
     <div
-      className="list-item PROJECT_INBOX"
+      className="listItem PROJECT_INBOX"
     >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+      <div>
+        <label
+          className="checkbox"
+        >
+          <input
+            defaultChecked={false}
+            disabled={true}
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            className="checkbox-custom"
+            onClick={[Function]}
+          />
+        </label>
+      </div>
       <div
         className="title"
       >
@@ -674,6 +827,18 @@ exports[`Storyshots ProjectList With Pinned Projects 1`] = `
         />
       </div>
       <div
+        className="projectImage"
+      >
+        <a
+          href="https://www.lego.com"
+        >
+          <img
+            alt="project thumbnail"
+            src="https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1059-1490303712-5_dblbig.jpg"
+          />
+        </a>
+      </div>
+      <div
         className="actions"
         onClick={[Function]}
       >
@@ -687,22 +852,24 @@ exports[`Storyshots ProjectList With Pinned Projects 1`] = `
       </div>
     </div>
     <div
-      className="list-item PROJECT_INBOX"
+      className="listItem PROJECT_INBOX"
     >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+      <div>
+        <label
+          className="checkbox"
+        >
+          <input
+            defaultChecked={false}
+            disabled={true}
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            className="checkbox-custom"
+            onClick={[Function]}
+          />
+        </label>
+      </div>
       <div
         className="title"
       >
@@ -714,6 +881,18 @@ exports[`Storyshots ProjectList With Pinned Projects 1`] = `
         />
       </div>
       <div
+        className="projectImage"
+      >
+        <a
+          href="https://www.lego.com"
+        >
+          <img
+            alt="project thumbnail"
+            src="https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1059-1490303712-5_dblbig.jpg"
+          />
+        </a>
+      </div>
+      <div
         className="actions"
         onClick={[Function]}
       >
@@ -727,22 +906,24 @@ exports[`Storyshots ProjectList With Pinned Projects 1`] = `
       </div>
     </div>
     <div
-      className="list-item PROJECT_INBOX"
+      className="listItem PROJECT_INBOX"
     >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+      <div>
+        <label
+          className="checkbox"
+        >
+          <input
+            defaultChecked={false}
+            disabled={true}
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            className="checkbox-custom"
+            onClick={[Function]}
+          />
+        </label>
+      </div>
       <div
         className="title"
       >
@@ -754,6 +935,18 @@ exports[`Storyshots ProjectList With Pinned Projects 1`] = `
         />
       </div>
       <div
+        className="projectImage"
+      >
+        <a
+          href="https://www.lego.com"
+        >
+          <img
+            alt="project thumbnail"
+            src="https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1059-1490303712-5_dblbig.jpg"
+          />
+        </a>
+      </div>
+      <div
         className="actions"
         onClick={[Function]}
       >
@@ -767,22 +960,24 @@ exports[`Storyshots ProjectList With Pinned Projects 1`] = `
       </div>
     </div>
     <div
-      className="list-item PROJECT_INBOX"
+      className="listItem PROJECT_INBOX"
     >
-      <label
-        className="checkbox"
-      >
-        <input
-          defaultChecked={false}
-          disabled={true}
-          name="checked"
-          type="checkbox"
-        />
-        <span
-          className="checkbox-custom"
-          onClick={[Function]}
-        />
-      </label>
+      <div>
+        <label
+          className="checkbox"
+        >
+          <input
+            defaultChecked={false}
+            disabled={true}
+            name="checked"
+            type="checkbox"
+          />
+          <span
+            className="checkbox-custom"
+            onClick={[Function]}
+          />
+        </label>
+      </div>
       <div
         className="title"
       >
@@ -792,6 +987,18 @@ exports[`Storyshots ProjectList With Pinned Projects 1`] = `
           type="text"
           value="Project 5"
         />
+      </div>
+      <div
+        className="projectImage"
+      >
+        <a
+          href="https://www.lego.com"
+        >
+          <img
+            alt="project thumbnail"
+            src="https://img.buzzfeed.com/buzzfeed-static/static/2017-03/23/17/tmp/buzzfeed-prod-fastlane-01/tmp-name-2-1059-1490303712-5_dblbig.jpg"
+          />
+        </a>
       </div>
       <div
         className="actions"

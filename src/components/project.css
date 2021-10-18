@@ -1,0 +1,39 @@
+.listItem {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  border-radius: 25px;
+  background-color: lightgreen;
+  width: 25%;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.title input {
+  background: transparent;
+  font-size: 1.5em;
+  font-weight: bold;
+  width: 60%;
+  padding: 0;
+  text-align: center;
+}
+
+.title .checkbox {
+  text-align: center;
+  width: 20%;
+}
+.title .actions {
+  text-align: center;
+  width: 20%;
+}
+
+.projectImage img {
+  border: 5px dotted blue;
+  filter: opacity(50%);
+  width: 100%;
+}
