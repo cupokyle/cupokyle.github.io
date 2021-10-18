@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "project.scss";
+import "project.css";
 
 export default function Project({
   project: { id, title, projectUrl, projectImgUrl, state },
