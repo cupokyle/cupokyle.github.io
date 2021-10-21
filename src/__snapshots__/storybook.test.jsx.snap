@@ -1,5 +1,79 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Nav Default 1`] = `
+<div
+  style={
+    Object {
+      "padding": "3rem",
+    }
+  }
+>
+  <nav
+    className="list-items"
+  >
+    <div
+      className="navItem"
+    >
+      <img
+        alt=""
+        src="https://cdn-icons.flaticon.com/svg/5074/5074700.svg?token=exp=1634856184~hmac=1316d9f2fc81a14b5a305aff9446bb5c"
+      />
+    </div>
+    <div
+      className="navItem"
+    >
+      <img
+        alt=""
+        src="https://cdn-icons.flaticon.com/svg/5074/5074700.svg?token=exp=1634856184~hmac=1316d9f2fc81a14b5a305aff9446bb5c"
+      />
+    </div>
+    <div
+      className="navItem"
+    >
+      <img
+        alt=""
+        src="https://cdn-icons.flaticon.com/svg/5074/5074700.svg?token=exp=1634856184~hmac=1316d9f2fc81a14b5a305aff9446bb5c"
+      />
+    </div>
+    <div
+      className="navItem"
+    >
+      <img
+        alt=""
+        src="https://cdn-icons.flaticon.com/svg/5074/5074700.svg?token=exp=1634856184~hmac=1316d9f2fc81a14b5a305aff9446bb5c"
+      />
+    </div>
+    <div
+      className="navItem"
+    >
+      <img
+        alt=""
+        src="https://cdn-icons.flaticon.com/svg/5074/5074700.svg?token=exp=1634856184~hmac=1316d9f2fc81a14b5a305aff9446bb5c"
+      />
+    </div>
+    <div
+      className="navItem"
+    >
+      <img
+        alt=""
+        src="https://cdn-icons.flaticon.com/svg/5074/5074700.svg?token=exp=1634856184~hmac=1316d9f2fc81a14b5a305aff9446bb5c"
+      />
+    </div>
+  </nav>
+</div>
+`;
+
+exports[`Storyshots Nav Item Default 1`] = `
+<div
+  className="navItem"
+>
+  <img
+    alt=""
+    src="https://cdn-icons.flaticon.com/svg/5074/5074700.svg?token=exp=1634856184~hmac=1316d9f2fc81a14b5a305aff9446bb5c"
+  />
+</div>
+`;
+
 exports[`Storyshots Project Archived 1`] = `
 <div
   className="listItem PROJECT_ARCHIVED"
