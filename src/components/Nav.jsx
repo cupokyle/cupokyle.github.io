@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./nav.css";
 
 import NavItem from "./NavItem";
 

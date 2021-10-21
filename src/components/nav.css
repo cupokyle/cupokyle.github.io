@@ -1,0 +1,15 @@
+.navItem img {
+  width: 100%;
+  height: 100%;
+}
+
+.navItem {
+  width: 200px;
+  padding: 10px;
+}
+
+.navItem:hover {
+  cursor: pointer;
+  border-radius: 50%;
+  padding: 0;
+}

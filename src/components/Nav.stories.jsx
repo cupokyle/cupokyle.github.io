@@ -30,11 +30,3 @@ Loading.args = {
   navItems: [],
   loading: true,
 };
-
-export const Empty = Template.bind({});
-Empty.args = {
-  // Shaping the stories through args composition.
-  // Inherited data coming from the Loading story.
-  ...Loading.args,
-  loading: false,
-};

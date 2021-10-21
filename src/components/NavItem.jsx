@@ -5,7 +5,11 @@ import "./nav.css";
 export default function NavItem({
   navItem: { id, title, navItemImgUrl, state },
 }) {
-  return <div className={`navItem ${state}`}></div>;
+  return (
+    <div className="navItem">
+      <img src={navItemImgUrl} alt="" />
+    </div>
+  );
 }
 
 NavItem.propTypes = {
