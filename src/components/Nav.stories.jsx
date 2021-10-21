@@ -24,9 +24,3 @@ Default.args = {
     { ...NavStories.Default.args.navItem, id: "6", title: "Nav Item 6" },
   ],
 };
-
-export const Loading = Template.bind({});
-Loading.args = {
-  navItems: [],
-  loading: true,
-};

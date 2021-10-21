@@ -42,11 +42,11 @@ export default function Nav({ loading, navItems }) {
   ];
 
   return (
-    <div className="list-items">
+    <nav className="list-items">
       {navItemsInOrder.map((navItem) => (
         <NavItem key={navItem.id} navItem={navItem} />
       ))}
-    </div>
+    </nav>
   );
 }
 
