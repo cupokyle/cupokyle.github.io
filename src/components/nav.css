@@ -11,6 +11,7 @@
   align-items: center;
   cursor: pointer;
   margin-bottom: 200px;
+  filter: brightness(75%);
 }
 
 .navItem:hover {

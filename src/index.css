@@ -821,12 +821,8 @@ input:-webkit-autofill {
 }
 a {
   transition: all 200ms ease-in;
-  color: #5db9ff;
   cursor: pointer;
   text-decoration: none;
-}
-a:hover {
-  color: #239da8;
 }
 a:active {
   color: #555;
