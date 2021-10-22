@@ -6,23 +6,22 @@ import NavItem from "./NavItem";
 
 export default function Nav({ loading, navItems }) {
   const LoadingRow = (
-    <div className="loading-item">
-      <span className="glow-checkbox" />
-      <span className="glow-text">
-        <span>Loading</span> <span>cool</span> <span>state</span>
-      </span>
-    </div>
+    <img
+      className="loading list-item"
+      alt=""
+      src="https://miro.medium.com/max/441/1*9EBHIOzhE1XfMYoKz1JcsQ.gif"
+    />
   );
   if (loading) {
     return (
-      <div className="list-items">
+      <nav className="list-items">
         {LoadingRow}
         {LoadingRow}
         {LoadingRow}
         {LoadingRow}
         {LoadingRow}
         {LoadingRow}
-      </div>
+      </nav>
     );
   }
   if (navItems.length === 0) {

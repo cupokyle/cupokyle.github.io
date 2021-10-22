@@ -1,12 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import "./nav.css";
+
+import NavCard from "./NavCard";
 
 export default function NavItem({
   navItem: { id, title, navItemImgUrl, state },
 }) {
+  const [isHovering, setIsHovering] = useState(false);
+  const handleMouseOver = () => {
+    setIsHovering(true);
+  };
+
+  const handleMouseOut = () => {
+    setIsHovering(false);
+  };
   return (
-    <div className="navItem">
+    <div
+      className="navItem"
+      onMouseOver={handleMouseOver}
+      onMouseOut={handleMouseOut}
+    >
+      {isHovering && <NavCard title={title} />}
       <img src={navItemImgUrl} alt="" />
     </div>
   );

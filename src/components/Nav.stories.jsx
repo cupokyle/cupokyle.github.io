@@ -24,3 +24,17 @@ Default.args = {
     { ...NavStories.Default.args.navItem, id: "6", title: "Nav Item 6" },
   ],
 };
+
+export const Loading = Template.bind({});
+Loading.args = {
+  navItems: [],
+  loading: true,
+};
+
+export const Empty = Template.bind({});
+Empty.args = {
+  // Shaping the stories through args composition.
+  // Inherited data coming from the Loading story.
+  ...Loading.args,
+  loading: false,
+};

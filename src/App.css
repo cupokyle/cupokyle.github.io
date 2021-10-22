@@ -16,3 +16,18 @@ main {
   color: white;
   font-weight: bolder;
 }
+
+.titleBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+}
+
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}

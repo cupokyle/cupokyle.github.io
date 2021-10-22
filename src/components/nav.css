@@ -4,7 +4,7 @@
 }
 
 .navItem {
-  width: 200px;
+  width: 100px;
   padding: 10px;
 }
 
@@ -21,4 +21,9 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   padding-bottom: 20px;
+}
+
+.loading {
+  filter: opacity(20%);
+  background: transparent;
 }

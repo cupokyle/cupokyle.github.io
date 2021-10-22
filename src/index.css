@@ -834,7 +834,7 @@ a:active {
 a:focus {
   outline: none;
 }
-.list-heading {
+/* .list-heading {
   letter-spacing: 0.3em;
   text-indent: 0.3em;
   text-transform: uppercase;
@@ -952,7 +952,7 @@ a:focus {
 .list-items .select-placeholder {
   border: none;
   width: 48px;
-}
+} */
 .wrapper-message {
   position: absolute;
   top: 45%;
