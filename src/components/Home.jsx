@@ -9,7 +9,8 @@ export default function Home() {
   const navItems = [
     {
       id: "1",
-      title: "Test Nav Item",
+      title: "Tweeter",
+      itemUrl: "https://github.com/cupokyle",
       navItemImgUrl:
         "https://pa1.narvii.com/6292/33c7cda3e5cc4b21250a70c98e0826d3c0708248_hq.gif",
       state: "NAVITEM",
@@ -17,7 +18,8 @@ export default function Home() {
     },
     {
       id: "2",
-      title: "Test Nav Item",
+      title: "Smart ToDo",
+      itemUrl: "https://github.com/cupokyle",
       navItemImgUrl:
         "https://pa1.narvii.com/6292/33c7cda3e5cc4b21250a70c98e0826d3c0708248_hq.gif",
       state: "NAVITEM",
@@ -25,7 +27,8 @@ export default function Home() {
     },
     {
       id: "3",
-      title: "Test Nav Item",
+      title: "FitHub",
+      itemUrl: "https://github.com/cupokyle",
       navItemImgUrl:
         "https://pa1.narvii.com/6292/33c7cda3e5cc4b21250a70c98e0826d3c0708248_hq.gif",
       state: "NAVITEM",
@@ -33,7 +36,8 @@ export default function Home() {
     },
     {
       id: "4",
-      title: "Test Nav Item",
+      title: "TUFT Sim",
+      itemUrl: "https://github.com/cupokyle",
       navItemImgUrl:
         "https://pa1.narvii.com/6292/33c7cda3e5cc4b21250a70c98e0826d3c0708248_hq.gif",
       state: "NAVITEM",
@@ -41,7 +45,8 @@ export default function Home() {
     },
     {
       id: "5",
-      title: "Test Nav Item",
+      title: "Jungle",
+      itemUrl: "https://github.com/cupokyle",
       navItemImgUrl:
         "https://pa1.narvii.com/6292/33c7cda3e5cc4b21250a70c98e0826d3c0708248_hq.gif",
       state: "NAVITEM",
@@ -49,7 +54,8 @@ export default function Home() {
     },
     {
       id: "6",
-      title: "Test Nav Item",
+      title: "Aircall",
+      itemUrl: "https://github.com/cupokyle",
       navItemImgUrl:
         "https://pa1.narvii.com/6292/33c7cda3e5cc4b21250a70c98e0826d3c0708248_hq.gif",
       state: "NAVITEM",

@@ -1,11 +1,6 @@
 import React from "react";
+import "./nav.css";
 
-export default function NavCard({ title }) {
-  return (
-    <div>
-      <span role="img" aria-label="cat">
-        {title}
-      </span>
-    </div>
-  );
+export default function NavCard({ title, navItemImgUrl, itemUrl }) {
+  return <div className="navCard"></div>;
 }
