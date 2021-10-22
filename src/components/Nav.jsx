@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import PropTypes from "prop-types";
 import "./nav.css";
 
 import NavItem from "./NavItem";
 
-export default function Nav({ loading, navItems }) {
+export default function Nav({ loading, navItems, isHovering, setIsHovering }) {
+  // const [isHovering, setIsHovering] = useState(false);
   const LoadingRow = (
     <img
       className="loading list-item"
@@ -43,7 +44,12 @@ export default function Nav({ loading, navItems }) {
   return (
     <nav className="list-items">
       {navItemsInOrder.map((navItem) => (
-        <NavItem key={navItem.id} navItem={navItem} />
+        <NavItem
+          key={navItem.id}
+          navItem={navItem}
+          isHovering={isHovering}
+          setIsHovering={setIsHovering}
+        />
       ))}
     </nav>
   );

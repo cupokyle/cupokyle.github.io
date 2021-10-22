@@ -5,11 +5,12 @@ import "./nav.css";
 import NavCard from "./NavCard";
 
 export default function NavItem({
+  isHovering,
+  setIsHovering,
   navItem: { id, title, navItemImgUrl, state, itemUrl },
 }) {
-  const [isHovering, setIsHovering] = useState(false);
   const handleMouseOver = () => {
-    setIsHovering(true);
+    setIsHovering({ id, title, navItemImgUrl, state, itemUrl });
   };
 
   const handleMouseOut = () => {
@@ -21,17 +22,6 @@ export default function NavItem({
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
     >
-      {/* <img
-        src="https://pa1.narvii.com/6292/33c7cda3e5cc4b21250a70c98e0826d3c0708248_hq.gif"
-        alt=""
-      /> */}
-      {isHovering && (
-        <NavCard
-          title={title}
-          navItemImgUrl={navItemImgUrl}
-          itemUrl={itemUrl}
-        />
-      )}
       <img
         src="https://66.media.tumblr.com/0caee7e4146a8a74e6a740d656ecb85d/tumblr_mnakva6Dds1rfjowdo1_500.gif"
         alt=""

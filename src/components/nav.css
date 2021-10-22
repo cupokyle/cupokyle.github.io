@@ -10,6 +10,7 @@
   flex-direction: column;
   align-items: center;
   cursor: pointer;
+  margin-bottom: 200px;
 }
 
 .navItem:hover {
@@ -33,7 +34,9 @@ nav {
 }
 
 .navCard {
-  height: 250px;
-  width: 250px;
+  height: 98%;
+  width: 30%;
   border: 3px solid black;
+  background-image: url(https://m.media-amazon.com/images/I/71LaR0rHNQL._AC_SL1500_.jpg);
+  background-size: cover;
 }
