@@ -11,7 +11,7 @@ export default function Title() {
         </a>
       </div>
       <div id="title">
-        <img
+        {/* <img
           src="https://fontmeme.com/permalink/211022/6d231f6b9cf880944410a0b506a981fb.png"
           alt="super-mario-256-font"
           border="0"
@@ -27,7 +27,9 @@ export default function Title() {
           src="https://fontmeme.com/permalink/211022/88d7582539d3f114b7b131b57d030e66.png"
           alt="super-mario-256-font"
           border="0"
-        />
+        /> */}
+        <p>Kyle Forsyth</p>
+        <p>Portfolio</p>
       </div>
       <div className="headerLink">
         <a href="https://github.com/cupokyle">

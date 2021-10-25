@@ -14,8 +14,7 @@ export default function Home() {
       id: "1",
       title: "Tweeter",
       itemUrl: "https://github.com/cupokyle",
-      navItemImgUrl:
-        "https://pa1.narvii.com/6292/33c7cda3e5cc4b21250a70c98e0826d3c0708248_hq.gif",
+      navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/408/408171.png",
       state: "NAVITEM",
       updatedAt: new Date(2021, 0, 1, 9, 0),
     },
@@ -23,8 +22,7 @@ export default function Home() {
       id: "2",
       title: "Smart ToDo",
       itemUrl: "https://github.com/cupokyle",
-      navItemImgUrl:
-        "https://pa1.narvii.com/6292/33c7cda3e5cc4b21250a70c98e0826d3c0708248_hq.gif",
+      navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/408/408159.png",
       state: "NAVITEM",
       updatedAt: new Date(2021, 0, 1, 9, 0),
     },
@@ -32,8 +30,7 @@ export default function Home() {
       id: "3",
       title: "FitHub",
       itemUrl: "https://github.com/cupokyle",
-      navItemImgUrl:
-        "https://pa1.narvii.com/6292/33c7cda3e5cc4b21250a70c98e0826d3c0708248_hq.gif",
+      navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/465/465253.png",
       state: "NAVITEM",
       updatedAt: new Date(2021, 0, 1, 9, 0),
     },
@@ -41,8 +38,7 @@ export default function Home() {
       id: "4",
       title: "TUFT Sim",
       itemUrl: "https://github.com/cupokyle",
-      navItemImgUrl:
-        "https://pa1.narvii.com/6292/33c7cda3e5cc4b21250a70c98e0826d3c0708248_hq.gif",
+      navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/411/411041.png",
       state: "NAVITEM",
       updatedAt: new Date(2021, 0, 1, 9, 0),
     },
@@ -50,8 +46,7 @@ export default function Home() {
       id: "5",
       title: "Jungle",
       itemUrl: "https://github.com/cupokyle",
-      navItemImgUrl:
-        "https://pa1.narvii.com/6292/33c7cda3e5cc4b21250a70c98e0826d3c0708248_hq.gif",
+      navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/409/409071.png",
       state: "NAVITEM",
       updatedAt: new Date(2021, 0, 1, 9, 0),
     },
@@ -59,8 +54,7 @@ export default function Home() {
       id: "6",
       title: "Aircall",
       itemUrl: "https://github.com/cupokyle",
-      navItemImgUrl:
-        "https://pa1.narvii.com/6292/33c7cda3e5cc4b21250a70c98e0826d3c0708248_hq.gif",
+      navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/465/465275.png",
       state: "NAVITEM",
       updatedAt: new Date(2021, 0, 1, 9, 0),
     },
@@ -89,6 +83,16 @@ export default function Home() {
           setIsHovering={setIsHovering}
         />
       </div>
+      {/* <div>
+        Icons made by{" "}
+        <a href="https://www.freepik.com" title="Freepik">
+          Freepik
+        </a>{" "}
+        from{" "}
+        <a href="https://www.flaticon.com/" title="Flaticon">
+          www.flaticon.com
+        </a>
+      </div> */}
     </main>
   );
 }

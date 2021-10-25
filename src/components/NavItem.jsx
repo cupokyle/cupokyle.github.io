@@ -22,10 +22,7 @@ export default function NavItem({
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
     >
-      <img
-        src="https://66.media.tumblr.com/0caee7e4146a8a74e6a740d656ecb85d/tumblr_mnakva6Dds1rfjowdo1_500.gif"
-        alt=""
-      />
+      <img class="navImage" src={navItemImgUrl} alt="" />
     </div>
   );
 }

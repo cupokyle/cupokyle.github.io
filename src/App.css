@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
 html,
 body,
 #app,
@@ -7,9 +9,9 @@ body,
 
 main {
   height: 100vh;
-  background-image: url("https://wallpapercave.com/wp/wp2736652.gif");
+  background-image: url("https://cdn.statically.io/img/i.imgur.com/T2hwUmC.gif");
   background-size: cover;
-  background-position: 10%;
+  /* background-position: 10%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +23,11 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2%;
+}
+#title p {
+  font-size: 100px;
+  padding: 50px;
+  font-family: "Righteous", cursive;
 }
 
 .headerLink {
