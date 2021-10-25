@@ -23,6 +23,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 2%;
 }
 #title p {
   font-size: 100px;
