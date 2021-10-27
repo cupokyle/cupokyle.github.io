@@ -6,7 +6,11 @@ export default function Title() {
   return (
     <div class="titleBar">
       <div className="headerLink">
-        <a href="https://www.linkedin.com/in/kyleforsyth/">
+        <a
+          href="https://www.linkedin.com/in/kyleforsyth/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <BsLinkedin className="headerLinkButton" size={50} />
         </a>
       </div>
@@ -32,7 +36,7 @@ export default function Title() {
         <p>Portfolio</p>
       </div>
       <div className="headerLink">
-        <a href="https://github.com/cupokyle">
+        <a href="https://github.com/cupokyle" target="_blank" rel="noreferrer">
           <BsGithub className="headerLinkButton" size={50} />
         </a>
       </div>

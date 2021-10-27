@@ -13,38 +13,50 @@ export default function Home() {
     {
       id: "1",
       title: "Tweeter",
-      itemUrl: "https://github.com/cupokyle",
+      itemUrl: "https://tweeter-46p8c.ondigitalocean.app/",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/408/408171.png",
+      gifUrl: "https://s5.gifyu.com/images/tweeter-cap.gif",
+      altText: "User using Tweeter",
     },
     {
       id: "2",
       title: "Smart ToDo",
       itemUrl: "https://github.com/cupokyle",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/408/408159.png",
+      gifUrl: "../assets/gifs/tweeter-cap.gif",
+      altText: "User using Smart ToDo",
     },
     {
       id: "3",
       title: "FitHub",
       itemUrl: "https://github.com/cupokyle",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/465/465253.png",
+      gifUrl: "https://s5.gifyu.com/images/fithub-cap.gif",
+      altText: "User using FitHub",
     },
     {
       id: "4",
       title: "TUFT Sim",
       itemUrl: "https://github.com/cupokyle",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/411/411041.png",
+      gifUrl: "../assets/gifs/tweeter-cap.gif",
+      altText: "User using TUFT Sim",
     },
     {
       id: "5",
       title: "Jungle",
       itemUrl: "https://github.com/cupokyle",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/409/409071.png",
+      gifUrl: "../assets/gifs/fithub-cap.gif",
+      altText: "User using Jungle",
     },
     {
       id: "6",
       title: "Aircall",
       itemUrl: "https://github.com/cupokyle",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/465/465275.png",
+      gifUrl: "../assets/gifs/fithub-cap.gif",
+      altText: "User using AirCall",
     },
   ];
 
@@ -61,6 +73,8 @@ export default function Home() {
             title={isHovering.title}
             navItemImgUrl={isHovering.navItemImgUrl}
             itemUrl={isHovering.itemUrl}
+            gifUrl={isHovering.gifUrl}
+            altText={isHovering.altText}
           />
         )}
         {!isHovering && <DefaultCard />}
