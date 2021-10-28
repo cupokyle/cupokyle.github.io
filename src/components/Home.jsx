@@ -21,16 +21,16 @@ export default function Home() {
     {
       id: "2",
       title: "Smart ToDo",
-      itemUrl: "https://github.com/cupokyle",
+      itemUrl: "https://github.com/cupokyle/smartToDo",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/408/408159.png",
-      gifUrl:
-        "http://www.netanimations.net/Animated-orange-black-flashing-construction-barracade.gif",
-      altText: "User using Smart ToDo",
+      // gifUrl:
+      //   "http://www.netanimations.net/Animated-orange-black-flashing-construction-barracade.gif",
+      altText: "GIF is currently Under Construction",
     },
     {
       id: "3",
       title: "FitHub",
-      itemUrl: "https://github.com/cupokyle",
+      itemUrl: "https://github.com/zeeplo/fithub",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/465/465253.png",
       gifUrl: "https://s5.gifyu.com/images/fithub-cap.gif",
       altText: "User using FitHub",
@@ -38,29 +38,27 @@ export default function Home() {
     {
       id: "4",
       title: "TUFT Sim",
-      itemUrl: "https://github.com/cupokyle",
+      itemUrl: "https://cupokyle.github.io/tuftsim/",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/411/411041.png",
-      gifUrl:
-        "http://www.netanimations.net/Animated-orange-black-flashing-construction-barracade.gif",
-      altText: "User using TUFT Sim",
+      gifUrl: "https://s1.gifyu.com/images/tuft-cap.gif",
+      altText: "GIF is currently Under Construction",
     },
     {
       id: "5",
       title: "Jungle",
-      itemUrl: "https://github.com/cupokyle",
+      itemUrl: "https://github.com/cupokyle/jungle-rails",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/409/409071.png",
-      gifUrl:
-        "http://www.netanimations.net/Animated-orange-black-flashing-construction-barracade.gif",
-      altText: "User using Jungle",
+      // gifUrl:
+      //   "http://www.netanimations.net/Animated-orange-black-flashing-construction-barracade.gif",
+      altText: "GIF is currently Under Construction",
     },
     {
       id: "6",
       title: "Aircall",
-      itemUrl: "https://github.com/cupokyle",
+      itemUrl: "https://kf-aircall.netlify.app/",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/465/465275.png",
-      gifUrl:
-        "http://www.netanimations.net/Animated-orange-black-flashing-construction-barracade.gif",
-      altText: "User using AirCall",
+      gifUrl: "https://s1.gifyu.com/images/aircall-cap.gif",
+      altText: "User archives a call in aircall",
     },
   ];
 

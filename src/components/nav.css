@@ -75,6 +75,7 @@ nav {
 .navCard img {
   width: 100%;
   height: auto;
+  padding: 20px;
 }
 
 .navCard h2 {
@@ -85,4 +86,8 @@ nav {
   border-radius: 12px;
   margin: 10px;
   color: white;
+}
+
+.navCard .default img {
+  height: 100px;
 }

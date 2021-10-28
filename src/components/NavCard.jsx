@@ -11,7 +11,7 @@ export default function NavCard({
   return (
     <div className="navCard">
       <h2>{title}</h2>
-      <img src={gifUrl} alt={altText} />
+      <img className="navGifBox" src={gifUrl} alt={altText} />
     </div>
   );
 }
