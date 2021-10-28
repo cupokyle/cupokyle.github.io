@@ -23,7 +23,8 @@ export default function Home() {
       title: "Smart ToDo",
       itemUrl: "https://github.com/cupokyle",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/408/408159.png",
-      gifUrl: "../assets/gifs/tweeter-cap.gif",
+      gifUrl:
+        "http://www.netanimations.net/Animated-orange-black-flashing-construction-barracade.gif",
       altText: "User using Smart ToDo",
     },
     {
@@ -39,7 +40,8 @@ export default function Home() {
       title: "TUFT Sim",
       itemUrl: "https://github.com/cupokyle",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/411/411041.png",
-      gifUrl: "../assets/gifs/tweeter-cap.gif",
+      gifUrl:
+        "http://www.netanimations.net/Animated-orange-black-flashing-construction-barracade.gif",
       altText: "User using TUFT Sim",
     },
     {
@@ -47,7 +49,8 @@ export default function Home() {
       title: "Jungle",
       itemUrl: "https://github.com/cupokyle",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/409/409071.png",
-      gifUrl: "../assets/gifs/fithub-cap.gif",
+      gifUrl:
+        "http://www.netanimations.net/Animated-orange-black-flashing-construction-barracade.gif",
       altText: "User using Jungle",
     },
     {
@@ -55,7 +58,8 @@ export default function Home() {
       title: "Aircall",
       itemUrl: "https://github.com/cupokyle",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/465/465275.png",
-      gifUrl: "../assets/gifs/fithub-cap.gif",
+      gifUrl:
+        "http://www.netanimations.net/Animated-orange-black-flashing-construction-barracade.gif",
       altText: "User using AirCall",
     },
   ];
