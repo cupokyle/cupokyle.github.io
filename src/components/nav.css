@@ -73,9 +73,10 @@ nav {
 }
 
 .navCard img {
-  width: 100%;
-  height: auto;
+  height: 100%;
   padding: 20px;
+  filter: opacity(80%);
+  border-radius: 50%;
 }
 
 .navCard h2 {
@@ -88,6 +89,7 @@ nav {
   color: white;
 }
 
-.navCard .default img {
-  height: 100px;
+img.default {
+  height: 100%;
+  border-radius: 0;
 }

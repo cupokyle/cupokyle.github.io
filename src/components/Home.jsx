@@ -15,7 +15,8 @@ export default function Home() {
       title: "Tweeter",
       itemUrl: "https://tweeter-46p8c.ondigitalocean.app/",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/408/408171.png",
-      gifUrl: "https://s5.gifyu.com/images/tweeter-cap.gif",
+      gifUrl:
+        "https://d2dgtayfmpkokn.cloudfront.net/wp-content/uploads/sites/200/2016/09/28125140/photos-coming-soon.jpg",
       altText: "User using Tweeter",
     },
     {
@@ -23,8 +24,8 @@ export default function Home() {
       title: "Smart ToDo",
       itemUrl: "https://github.com/cupokyle/smartToDo",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/408/408159.png",
-      // gifUrl:
-      //   "http://www.netanimations.net/Animated-orange-black-flashing-construction-barracade.gif",
+      gifUrl:
+        "https://d2dgtayfmpkokn.cloudfront.net/wp-content/uploads/sites/200/2016/09/28125140/photos-coming-soon.jpg",
       altText: "GIF is currently Under Construction",
     },
     {
@@ -32,7 +33,8 @@ export default function Home() {
       title: "FitHub",
       itemUrl: "https://github.com/zeeplo/fithub",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/465/465253.png",
-      gifUrl: "https://s5.gifyu.com/images/fithub-cap.gif",
+      gifUrl:
+        "https://d2dgtayfmpkokn.cloudfront.net/wp-content/uploads/sites/200/2016/09/28125140/photos-coming-soon.jpg",
       altText: "User using FitHub",
     },
     {
@@ -40,7 +42,8 @@ export default function Home() {
       title: "TUFT Sim",
       itemUrl: "https://cupokyle.github.io/tuftsim/",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/411/411041.png",
-      gifUrl: "https://s1.gifyu.com/images/tuft-cap.gif",
+      gifUrl:
+        "https://d2dgtayfmpkokn.cloudfront.net/wp-content/uploads/sites/200/2016/09/28125140/photos-coming-soon.jpg",
       altText: "GIF is currently Under Construction",
     },
     {
@@ -48,8 +51,8 @@ export default function Home() {
       title: "Jungle",
       itemUrl: "https://github.com/cupokyle/jungle-rails",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/409/409071.png",
-      // gifUrl:
-      //   "http://www.netanimations.net/Animated-orange-black-flashing-construction-barracade.gif",
+      gifUrl:
+        "https://d2dgtayfmpkokn.cloudfront.net/wp-content/uploads/sites/200/2016/09/28125140/photos-coming-soon.jpg",
       altText: "GIF is currently Under Construction",
     },
     {
@@ -57,7 +60,8 @@ export default function Home() {
       title: "Aircall",
       itemUrl: "https://kf-aircall.netlify.app/",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/465/465275.png",
-      gifUrl: "https://s1.gifyu.com/images/aircall-cap.gif",
+      gifUrl:
+        "https://d2dgtayfmpkokn.cloudfront.net/wp-content/uploads/sites/200/2016/09/28125140/photos-coming-soon.jpg",
       altText: "User archives a call in aircall",
     },
   ];
