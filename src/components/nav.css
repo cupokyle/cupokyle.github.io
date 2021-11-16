@@ -18,7 +18,7 @@
 
 .navItem:hover {
   cursor: pointer;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   padding: 0;
   animation: shake 3s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
   transform: translate3d(0, 0, 0);
@@ -76,7 +76,7 @@ nav {
   height: 100%;
   padding: 20px;
   filter: opacity(80%);
-  border-radius: 50%;
+  border-radius: 25px;
 }
 
 .navCard h2 {

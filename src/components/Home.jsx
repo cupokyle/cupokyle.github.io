@@ -15,8 +15,7 @@ export default function Home() {
       title: "Tweeter",
       itemUrl: "https://tweeter-46p8c.ondigitalocean.app/",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/408/408171.png",
-      gifUrl:
-        "https://d2dgtayfmpkokn.cloudfront.net/wp-content/uploads/sites/200/2016/09/28125140/photos-coming-soon.jpg",
+      gifUrl: "https://im4.ezgif.com/tmp/ezgif-4-68b694eb5c22.gif",
       altText: "User using Tweeter",
     },
     {
@@ -33,8 +32,7 @@ export default function Home() {
       title: "FitHub",
       itemUrl: "https://github.com/zeeplo/fithub",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/465/465253.png",
-      gifUrl:
-        "https://d2dgtayfmpkokn.cloudfront.net/wp-content/uploads/sites/200/2016/09/28125140/photos-coming-soon.jpg",
+      gifUrl: "https://im4.ezgif.com/tmp/ezgif-4-18a6d73521c3.gif",
       altText: "User using FitHub",
     },
     {
@@ -42,8 +40,7 @@ export default function Home() {
       title: "TUFT Sim",
       itemUrl: "https://cupokyle.github.io/tuftsim/",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/411/411041.png",
-      gifUrl:
-        "https://d2dgtayfmpkokn.cloudfront.net/wp-content/uploads/sites/200/2016/09/28125140/photos-coming-soon.jpg",
+      gifUrl: "https://im4.ezgif.com/tmp/ezgif-4-01e4e7bd22b8.gif",
       altText: "GIF is currently Under Construction",
     },
     {
@@ -60,8 +57,7 @@ export default function Home() {
       title: "Aircall",
       itemUrl: "https://kf-aircall.netlify.app/",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/465/465275.png",
-      gifUrl:
-        "https://d2dgtayfmpkokn.cloudfront.net/wp-content/uploads/sites/200/2016/09/28125140/photos-coming-soon.jpg",
+      gifUrl: "https://im4.ezgif.com/tmp/ezgif-4-019281c04cbf.gif",
       altText: "User archives a call in aircall",
     },
   ];
