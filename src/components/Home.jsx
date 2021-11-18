@@ -15,7 +15,7 @@ export default function Home() {
       title: "Tweeter",
       itemUrl: "https://tweeter-46p8c.ondigitalocean.app/",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/408/408171.png",
-      gifUrl: "https://im4.ezgif.com/tmp/ezgif-4-68b694eb5c22.gif",
+      gifUrl: "https://s8.gifyu.com/images/tweetergif.gif",
       altText: "User using Tweeter",
     },
     {
@@ -32,7 +32,7 @@ export default function Home() {
       title: "FitHub",
       itemUrl: "https://github.com/zeeplo/fithub",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/465/465253.png",
-      gifUrl: "https://im4.ezgif.com/tmp/ezgif-4-18a6d73521c3.gif",
+      gifUrl: "https://s1.gifyu.com/images/fithubgif.gif",
       altText: "User using FitHub",
     },
     {
@@ -40,7 +40,7 @@ export default function Home() {
       title: "TUFT Sim",
       itemUrl: "https://cupokyle.github.io/tuftsim/",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/411/411041.png",
-      gifUrl: "https://im4.ezgif.com/tmp/ezgif-4-01e4e7bd22b8.gif",
+      gifUrl: "https://s8.gifyu.com/images/tuftgif.gif",
       altText: "GIF is currently Under Construction",
     },
     {
@@ -57,7 +57,7 @@ export default function Home() {
       title: "Aircall",
       itemUrl: "https://kf-aircall.netlify.app/",
       navItemImgUrl: "https://cdn-icons-png.flaticon.com/512/465/465275.png",
-      gifUrl: "https://im4.ezgif.com/tmp/ezgif-4-019281c04cbf.gif",
+      gifUrl: "https://s8.gifyu.com/images/aircallgif.gif",
       altText: "User archives a call in aircall",
     },
   ];
